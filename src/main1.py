@@ -8,10 +8,6 @@ from sklearn.neural_network import MLPClassifier
 IMAGE_REDUCED_SIZE = 64
 FOLDER = '../dataset/'
 
-#For example purpose only
-#example = example[:, :, 0] #keep only R component (from RGB)
-#showImage(example)
-
 def showImage(image):
     print(image.shape)
     fig = plt.figure()
